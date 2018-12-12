@@ -21,6 +21,7 @@ public class HomeWork {
             day = date.minLength();
         } catch (Exception e) {
             System.out.println("Введите название месяца правильно!");
+            return;
         }
         System.out.println(day);
 
