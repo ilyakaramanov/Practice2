@@ -3,7 +3,15 @@ package ua.org.oa.ilyakaramanov;
 import java.util.Arrays;
 import java.util.List;
 
+/*
+Класс содержит методы из условия практического занятия №2
+ */
+
 public class Main {
+
+    /*
+    Метод создает одну строку из двух
+     */
 
     public void task1() {
         String s1 = "Первая";
@@ -12,17 +20,29 @@ public class Main {
         System.out.println(s3);
     }
 
+    /*
+    Метод оставляет 3 символу у строки
+     */
+
     public void task2() {
         String s1 = "Practice2";
         String s2 = s1.substring(3, 6);
         System.out.println(s2);
     }
 
+    /*
+    Метод переносит 2 последних символа в начало строки
+     */
+
     public void task3() {
         String s1 = "Строка";
         String s2 = s1.substring(s1.length() - 2).concat(s1.substring(0, s1.length() - 2));
         System.out.println(s2);
     }
+
+    /*
+Метод удваивает символы в строке
+     */
 
     public void task4() {
         String s1 = "qwerty";
@@ -32,6 +52,10 @@ public class Main {
         }
         System.out.println(s2);
     }
+
+    /*
+    Метод находит нужное вхождение в строке
+     */
 
     public void task5() {
         int count = 0;
@@ -44,6 +68,10 @@ public class Main {
         System.out.println(count);
     }
 
+    /*
+    Метод удаляет символы рядом стоящие с символом *
+     */
+
     public void task6() {
         String s1 = "Co*mput*er";
         int index = 0;
@@ -55,6 +83,10 @@ public class Main {
         }
         System.out.println(s1);
     }
+
+    /*
+    Метод считает слова, которые заканчиваются на a или s
+     */
 
     public void task7() {
         int count = 0;
@@ -73,6 +105,10 @@ public class Main {
         }
         System.out.println(count);
     }
+
+    /*
+    Метод удаляет все вхождения из первой строки и создает новую строку
+     */
 
     public void task8() {
         String s1 = "qwertyuiop";

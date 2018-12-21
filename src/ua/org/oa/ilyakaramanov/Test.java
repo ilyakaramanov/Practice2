@@ -1,8 +1,14 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+В этом классе запускаются все методы из класса Main
+ */
+
 public class Test {
     public static void main(String[] args) {
-        Main main = new Main();
+
+
+        Main main = new Main();         //Объект класса Main
         System.out.print("task1: ");
         main.task1();
         System.out.print("task2: ");
